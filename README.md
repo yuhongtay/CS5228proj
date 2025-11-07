@@ -5,10 +5,10 @@ This project focuses on developing a predictive model for HDB resale prices with
 ## Main Files
 The main files used in this project are organized into the following 3 folders. 
 
-- **`preprocessing/`** – Contains the preprocessing and EDA code.  
-  - Key notebook: `AuxDataClean.ipynb`
+- **`preprocessing/`** – Contains the preprocessing and EDA code, specifically the `AuxDataClean.ipynb` notebook. 
 
-- **`models/`** – Contains all modeling notebooks used for data mining.  
+- **`models/`** – Contains all modeling notebooks used for data mining.
+  -  `hyperparameter_tuning.ipynb` contains our final predictive model which obtained the highest RMSE for this task.
 
 - **`data/`** – Contains all datasets used for training, validation, and testing.  
 
