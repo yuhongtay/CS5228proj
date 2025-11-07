@@ -51,3 +51,9 @@ The entire structure of the respository is as below.
 │
 └── README.md
 ```
+
+## How to Run (Reproducibility)
+1. Run preprocessing/AuxDataClean.ipynb to generate cleaned data (set SAVE_FINAL_FILE=True).
+2. Run Figures.ipynb for EDA.
+3. Run model notebooks in order: baselines -> tuning -> specific models -> ensemble.
+
